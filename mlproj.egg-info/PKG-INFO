@@ -5,12 +5,14 @@ Summary: A package for ML projects
 Author: Divyansh
 Author-email: divyanshgupta0804@gmail.com
 License-File: LICENSE
-Requires-Dist: numpy
-Requires-Dist: seaborn
 Requires-Dist: pandas
-Requires-Dist: matplotlib
+Requires-Dist: numpy
 Requires-Dist: scikit-learn
 Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: catboost
+Requires-Dist: xgboost
 Dynamic: author
 Dynamic: author-email
 Dynamic: license-file

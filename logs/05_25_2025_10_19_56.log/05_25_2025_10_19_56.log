@@ -1,0 +1,4 @@
+[2025-05-25 10:19:58,662] 22 INFO - Data Ingestion method starts
+[2025-05-25 10:19:58,927] 25 INFO - Dataset read as pandas dataframe
+[2025-05-25 10:19:58,974] 30 INFO - Raw data saved
+[2025-05-25 10:19:59,120] 36 INFO - Train and test data saved
