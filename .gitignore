@@ -19,6 +19,8 @@ dist/
 build/
 *.egg-info/
 
+mlproj.egg-info/
+.eggs/
 
 
 # Jupyter Notebook

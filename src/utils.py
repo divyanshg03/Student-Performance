@@ -54,6 +54,14 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, params):
             print(f"{model_name} - Train R2: {train_model_score:.4f}, Test R2: {test_model_score:.4f}")
             
         return report
-        
+    
+    except Exception as e:
+        raise CustomException(e, sys)
+
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as file_obj:
+            return pickle.load(file_obj)
+
     except Exception as e:
         raise CustomException(e, sys)

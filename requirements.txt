@@ -6,4 +6,6 @@ matplotlib
 seaborn
 catboost
 xgboost
+flask
+flask-cors
 -e .
