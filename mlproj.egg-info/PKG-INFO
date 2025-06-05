@@ -13,6 +13,8 @@ Requires-Dist: matplotlib
 Requires-Dist: seaborn
 Requires-Dist: catboost
 Requires-Dist: xgboost
+Requires-Dist: flask
+Requires-Dist: flask-cors
 Dynamic: author
 Dynamic: author-email
 Dynamic: license-file

@@ -7,6 +7,12 @@ env/
 ENV/
 env.bak/
 venv.bak/
+.mlproj.egg-info/
+*.egg-info/
+*.egg
+*.whl
+*.coverage
+*.cache
 
 
 # Python cache files
@@ -17,7 +23,7 @@ __pycache__/
 # Distribution / packaging
 dist/
 build/
-*.egg-info/
+*.txt/
 mlproj.egg-info/
 .eggs/
 
