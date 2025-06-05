@@ -18,10 +18,8 @@ __pycache__/
 dist/
 build/
 *.egg-info/
-
 mlproj.egg-info/
 .eggs/
-
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -32,9 +30,16 @@ mlproj.egg-info/
 *.swp
 *.swo
 
-# Logs
+# Logs and output files
 *.log
 logs/
+
+# ML artifacts
+artifacts/
+*.pkl
+*.joblib
+
 # Coverage reports
 .coverage
+
 # Test results
